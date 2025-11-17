@@ -32,19 +32,18 @@ li{
 .copy-container h1{
   font-size:140px;
 
-
-/* copy-containerの中のh2のfont-sizeを指定してください */
 .copy-container h2{
   font-size:60px;
 }
 
 
-.footer{
+.footer {
   background-color: #2f5167;
-  color:#fff;
+  color: #fff;
   height: 120px;
-  padding:40px;
+  padding: 40px;
 }
+
 .footer-logo{
   font-size: 32px;
   float: left;
