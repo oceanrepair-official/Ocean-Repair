@@ -37,6 +37,18 @@ li{
   font-size:60px;
 }
 
+.contents {
+  height: 500px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+}
+
+.contents-item{
+  float:left;
+}
+
 
 .footer {
   background-color: #2f5167;
