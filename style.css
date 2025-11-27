@@ -13,6 +13,7 @@ li{
   position :fixed;
   top: 0;
   z-index: 10;
+  color: white;
 }
 
 /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
@@ -26,7 +27,6 @@ li{
 .header-list li{
   float: left;
   padding: 33px 20px;
-  color: white
 }
 
 .main {
