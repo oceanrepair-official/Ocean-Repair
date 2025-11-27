@@ -106,22 +106,22 @@ header {
   padding: 40px;
 }
 
-.footer-list ul {
+.footer-right ul {
   list-style: none;  
   padding: 0;        
   margin: 0;         
   text-align: right; 
 }
 
-.footer-list li {
+.footer-right li {
   margin-bottom: 10px;
 }
 
-.footer-list li a {
+.footer-right li a {
   color: white;          
   text-decoration: none;  
 }
 
-.footer-list li a:hover {
+.footer-right li a:hover {
   color: #ffcc00;         
 }
