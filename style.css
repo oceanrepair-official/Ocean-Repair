@@ -68,3 +68,33 @@ header {
   text-align: center;
   margin: 50px 0;
 }
+
+.features {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.feature-item {
+  display: flex;          
+  align-items: center;     
+  margin-bottom: 40px;     
+}
+
+.feature-item img {
+  width: 40%;              
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;      
+}
+
+.feature-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
