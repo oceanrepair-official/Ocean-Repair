@@ -8,8 +8,11 @@ li{
 
 
 .header {
+  width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  height: 90px;
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
 
 /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
