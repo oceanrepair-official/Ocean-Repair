@@ -99,6 +99,13 @@ header {
   line-height: 1.5;
 }
 
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
 .footer-right {
   float: right;
   margin-right: 25px;
