@@ -26,7 +26,8 @@ li{
 
 .header-list li{
   float: right;
-  padding: 0 25px;
+  margin-right: 25px;
+  padding: 33px 20px;
   display: block;
   transition: all 0.5s;
 }
