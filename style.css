@@ -118,7 +118,8 @@ header {
 
 .footer-right li a {
   color: white;          
-  text-decoration: none;  
+  text-decoration: none;
+  padding-bottom: 20px;
 }
 
 .footer-right li a:hover {
