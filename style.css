@@ -29,11 +29,14 @@ header {
 
 .header-left {
   float: left;
+  color: white;
+  font-size: 24px;
 }
 
 .header-right {
   float: right;
   margin-right: -25px;
+  color: white;
 }
 
 .header-right a {
