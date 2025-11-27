@@ -63,3 +63,8 @@ header {
   height: auto;         
   object-fit: cover;    
 }
+
+.top-contents {
+  text-align: center;
+  margin: 50px 0;
+}
