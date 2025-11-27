@@ -98,3 +98,9 @@ header {
   font-size: 18px;
   line-height: 1.5;
 }
+
+.footer-right {
+  float: right;
+  margin-right: 25px;
+  color: white;
+}
