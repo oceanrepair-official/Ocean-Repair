@@ -26,6 +26,7 @@ li{
 
 .header-list li{
   float: right;
+  margin-right: -25px;
   padding: 33px 20px;
 }
 
