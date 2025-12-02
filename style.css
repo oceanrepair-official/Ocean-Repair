@@ -125,3 +125,11 @@ header {
 .footer-right li a:hover {
   color: #ffcc00;         
 }
+
+.footer-bottom {
+  padding: 20px 0 0 0;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
