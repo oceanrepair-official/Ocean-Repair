@@ -1,3 +1,6 @@
+.product .product-hero { display: flex; }
+.product .features-grid { display: grid; }
+
 /* セクション共通 */
 .section-title {
     text-align: center;
