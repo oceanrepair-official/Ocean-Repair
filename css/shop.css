@@ -1,0 +1,101 @@
+/* ===== ショップページ ===== */
+
+.shop-page {
+  padding-top: 100px;
+}
+
+/* ヒーロー */
+.shop-hero {
+  text-align: center;
+  padding: 70px 20px;
+  background-color: #f5f7fa;
+}
+
+.shop-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.shop-hero p {
+  color: #666;
+}
+
+/* セクション共通 */
+.shop-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.shop-section.gray {
+  background-color: #fafafa;
+  padding: 60px 20px;
+}
+
+.shop-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.shop-section p {
+  color: #555;
+  line-height: 1.7;
+}
+
+/* 楽天ボタン */
+.shop-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 16px 40px;
+  background-color: #0056b3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.shop-btn:hover {
+  opacity: 0.85;
+}
+
+/* サブボタン */
+.shop-sub-btn {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0056b3;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* リスト */
+.shop-list {
+  list-style: none;
+  padding: 0;
+}
+
+.shop-list li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+/* SNS */
+.sns-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.sns-links a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+/* 注意事項 */
+.notice {
+  font-size: 0.9rem;
+  color: #777;
+}
