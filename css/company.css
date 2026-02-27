@@ -1,0 +1,87 @@
+/* ===== 会社概要ページ ===== */
+
+.company-page {
+  padding-top: 100px;
+}
+
+/* ヒーロー */
+.company-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f5f7fa;
+}
+
+.company-hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.company-hero p {
+  color: #555;
+}
+
+/* セクション共通 */
+.company-page section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.company-page h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  border-left: 5px solid #0056b3;
+  padding-left: 12px;
+}
+
+/* メッセージ */
+.company-message p {
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* 会社情報テーブル */
+.company-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.company-info th,
+.company-info td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.company-info th {
+  width: 30%;
+  background-color: #f5f7fa;
+  font-weight: bold;
+}
+
+/* お問い合わせ */
+.company-contact p {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* 外部リンク */
+.company-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company-links li {
+  margin-bottom: 12px;
+}
+
+.company-links a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.company-links a:hover {
+  text-decoration: underline;
+}
