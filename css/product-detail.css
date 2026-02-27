@@ -1,41 +1,79 @@
+/* ===== 商品一覧ページ ===== */
 
-/* ===== 商品ページ全体 ===== */
-.product .product-hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 60px;
-  padding: 120px 8%;
-  background-color: #ffffff;
+.products-page {
+  padding-top: 100px;
 }
 
-/* テキスト側 */
-.product .hero-content {
-  max-width: 520px;
+/* ヒーロー */
+.products-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f5f7fa;
 }
 
-.product .hero-content h1 {
-  font-size: 3rem;
-  color: #0056b3;
-  margin-bottom: 16px;
+.products-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
-.product .hero-content p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin-bottom: 32px;
+.products-hero p {
+  color: #666;
 }
 
-/* 画像側 */
-.product .hero-image img {
-  width: 600px;
-  max-width: 100%;
-  height: auto;
+/* 商品一覧 */
+.products-list {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+
+/* 商品カード */
+.product-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
 }
 
 /* ボタン */
-.product .cta-button {
-  padding: 16px 40px;
-  border-radius: 50px;
+.product-card .btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #0056b3;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
   font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+.product-card .btn:hover {
+  opacity: 0.8;
 }
