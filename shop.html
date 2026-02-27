@@ -1,45 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Ocean Repair</title>
-  </head>
-<body>
-  <header>
-    <div class="container">
-    <div class="header-left">Ocean Repair</div>
-  </div>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ショップ | Ocean Repair</title>
 
-  <header>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/shop.css">
+</head>
+
+<body>
+
+<header>
   <div class="header-left">Ocean Repair</div>
   <nav class="header-right">
     <a href="index.html">ホーム</a>
     <a href="products.html">商品紹介</a>
-    <a href="shop.html">ショップ</a>
+    <a href="shop.html" class="active">ショップ</a>
     <a href="company.html">会社概要</a>
   </nav>
 </header>
-    <div class="footer">
-    <div class="footer-right">
-    <ul>
-     <li><a href="shop.html">ショップ</a></li>
-     <li><a href="#">会社概要</a></li>
-     <li><a href="products.html">商品紹介</a></li>
-     <li><a href="#">お問い合わせ</a></li>
-   </ul>
-    </div>              
+
+<main class="shop-page">
+
+  <!-- ヒーロー -->
+  <section class="shop-hero">
+    <h1>ご購入について</h1>
+    <p>Ocean Repair 製品は、正規販売店にてご購入いただけます。</p>
+  </section>
+
+  <!-- 正規販売店 -->
+  <section class="shop-section">
+    <h2>正規販売店</h2>
+    <p>
+      Ocean Repair 製品は、以下の正規販売店よりご購入いただけます。<br>
+      価格・在庫・配送状況は販売ページをご確認ください。
+    </p>
+
+    <a href="https://www.rakuten.co.jp/oceanrepair/" target="_blank" class="shop-btn">
+      楽天市場 公式ショップへ
+    </a>
+  </section>
+
+  <!-- 対象ユーザー -->
+  <section class="shop-section gray">
+    <h2>こんな方におすすめ</h2>
+    <ul class="shop-list">
+      <li>建築・塗装・防水業者様</li>
+      <li>工務店・リフォーム業者様</li>
+      <li>補修・メンテナンス業務に携わる方</li>
+      <li>高性能な補修材を求めるDIYユーザー様</li>
+    </ul>
+  </section>
+
+  <!-- 法人向け -->
+  <section class="shop-section">
+    <h2>法人・業者様向けのご案内</h2>
+    <p>
+      大口注文・継続取引・製品仕様に関するご相談は、<br>
+      お問い合わせページよりお気軽にご連絡ください。
+    </p>
+
+    <a href="company.html#contact" class="shop-sub-btn">
+      お問い合わせはこちら
+    </a>
+  </section>
+
+  <!-- SNS -->
+  <section class="shop-section gray">
+    <h2>SNS・動画で使用例を見る</h2>
+    <p>実際の施工例や使い方は、各SNSでご紹介しています。</p>
+
+    <div class="sns-links">
+      <a href="https://www.instagram.com/ocean.repair/" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@oceanrepair" target="_blank">YouTube</a>
+      <a href="https://lite.tiktok.com/t/ZS9epU5FXoA6Y-mF6Z2/" target="_blank">TikTok</a>
     </div>
-    <div class="footer-bottom">
-      &copy; 2024 Ocean Repair. All rights reserved.    
-    </div>  
-    <div class="main-content"
-        <section class="text-section">  
-            <h1>ショップ</h1>
-            <p>特許技術による日本で1番の接着技術で</p>
-            <p>独自技術で様々な素材の接着、補修、防水、防食を実現。</p>
-        </section>
-        
+  </section>
+
+  <!-- 注意事項 -->
+  <section class="shop-section notice">
+    <p>
+      ※ Ocean Repair 製品は、公式サイト・正規販売店以外でのご購入については<br>
+      品質保証の対象外となる場合があります。<br>
+      使用前には必ず用途・仕様をご確認ください。
+    </p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2025 Ocean Repair. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
