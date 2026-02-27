@@ -71,41 +71,61 @@ header {
   background-color: #e60000;
 }
 
-/* ===== footer ===== */
-.footer {
-  background-color: #2f5167;
+/* ===== フッター ===== */
+.site-footer {
+  background-color: #1f2933;
   color: #fff;
-  padding: 40px;
+  padding: 60px 20px 20px;
+  font-size: 0.9rem;
 }
 
-.footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
 }
 
-.footer-right ul {
+.site-footer h3,
+.site-footer h4 {
+  margin-bottom: 15px;
+}
+
+.footer-company p {
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.footer-address {
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.site-footer ul {
   list-style: none;
   padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px 40px;
-  max-width: 250px;
-  text-align: right;
 }
 
-.footer-right li a {
-  color: white;
+.site-footer li {
+  margin-bottom: 8px;
 }
 
-.footer-right li a:hover {
-  color: #ffcc00;
+.site-footer a {
+  color: #ddd;
+  text-decoration: none;
 }
 
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* 下部コピーライト */
 .footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 15px;
   text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-  color: #ccc;
+  font-size: 0.8rem;
+  color: #bbb;
 }
