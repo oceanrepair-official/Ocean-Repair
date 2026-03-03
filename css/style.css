@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
-  padding-top: 0;
+  padding-top: 65px;   /* ← 全ページ共通 */
 }
 
 a {
@@ -26,7 +26,7 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 1000;   /* ← 少し上げておくと安全 */
 }
 
 .header-left {
@@ -133,10 +133,7 @@ header {
 /* ===== スマホ時ヘッダー高さ修正 ===== */
 @media screen and (max-width: 768px) {
 
-  header {
-    position: relative;
-    height: auto;
-  }
+
 
   .header-left {
     float: none;
