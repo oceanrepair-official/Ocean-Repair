@@ -130,7 +130,7 @@ header {
   color: #bbb;
 }
 
-/* ===== スマホ用ヘッダー改善、 ===== */
+/* ===== スマホ時ヘッダー高さ修正 ===== */
 @media screen and (max-width: 768px) {
 
   header {
@@ -138,29 +138,27 @@ header {
     padding: 10px 0;
   }
 
-  .header-left {
-    float: none;
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
-  }
-
+  .header-left,
   .header-right {
     float: none;
     text-align: center;
-    margin: 10px 0 0 0;
+    margin: 0;
+  }
+
+  .header-right {
+    margin-top: 10px;
   }
 
   .header-right a {
     float: none;
     display: inline-block;
-    padding: 10px 12px;
+    padding: 10px;
     font-size: 14px;
   }
 
-  /* bodyの余白も調整 */
+  /* ← これが重要 */
   body {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
 }
