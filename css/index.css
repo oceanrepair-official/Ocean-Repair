@@ -11,7 +11,7 @@ main {
   text-align: center;
   color: #fff;
 
-  background-image: url("png/23179908_m.jpg");
+  background-image: url("../png/23179908_m.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(78, 63, 63, 0.45);
 }
 
 /* テキストを前面に */
