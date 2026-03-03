@@ -129,3 +129,24 @@ header {
   font-size: 0.8rem;
   color: #bbb;
 }
+
+@media screen and (max-width: 768px) {
+
+  .header-left,
+  .header-right {
+    float: none;
+    text-align: center;
+  }
+
+  .header-right {
+    margin-right: 0;
+  }
+
+  .header-right a {
+    float: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+}

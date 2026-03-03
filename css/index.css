@@ -181,3 +181,66 @@
   background-color: #fff;
   color: #0056b3;
 }
+
+/* ===== スマホ対応 ===== */
+@media screen and (max-width: 768px) {
+
+  /* ヒーロー */
+  .hero {
+    padding: 120px 20px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  /* ボタンを縦並びに */
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  /* 強みセクション */
+  .strengths {
+    padding: 60px 20px;
+  }
+
+  .strengths h2 {
+    font-size: 1.5rem;
+  }
+
+  /* 主力商品 */
+  .featured-products {
+    padding: 60px 20px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-image {
+    height: 180px;
+  }
+
+  /* 用途 */
+  .usage {
+    padding: 60px 20px;
+  }
+
+  /* 購入案内 */
+  .purchase {
+    padding: 60px 20px;
+  }
+
+}
