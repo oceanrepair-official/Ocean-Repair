@@ -130,7 +130,7 @@ header {
   color: #bbb;
 }
 
-/* ===== スマホ用ヘッダー改善 ===== */
+/* ===== スマホ用ヘッダー改善、 ===== */
 @media screen and (max-width: 768px) {
 
   header {
