@@ -7,22 +7,22 @@ main {
 /* ===== ヒーロー（背景画像版） ===== */
 .hero {
   position: relative;
-  padding: 140px 20px;
+  padding: 160px 20px;
   text-align: center;
   color: #fff;
 
-  background-image: url("png/23179908_m.jpg");
+  background-image: url("../images/paint-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* 黒の半透明レイヤー */
+/* 黒の半透明レイヤー（文字を読みやすく） */
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.45);
 }
 
 /* テキストを前面に */
@@ -40,7 +40,7 @@ main {
 
 .hero p {
   font-size: 1.1rem;
-  color: #f0f0f0;
+  color: #f5f5f5;
   margin-bottom: 40px;
 }
 
