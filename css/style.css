@@ -133,45 +133,33 @@ header {
 /* ===== スマホ時ヘッダー高さ修正 ===== */
 @media screen and (max-width: 768px) {
 
-  /* ===== header（修正版） ===== */
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.95);
-  position: relative; 
-  top: 0;
-  z-index: 100;
-}
+  header {
+    position: relative;
+    height: auto;
+  }
 
-.header-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  height: 65px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-}
+  .header-left {
+    float: none;
+    text-align: center;
+    margin: 10px 0;
+  }
 
-.header-left {
-  color: white;
-  font-size: 22px;
-}
+  .header-right {
+    float: none;
+    display: flex;              /* ← 横並びにする */
+    justify-content: center;    /* ← 中央寄せ */
+    flex-wrap: wrap;            /* ← 画面狭い時だけ改行 */
+    gap: 15px;
+    margin: 5px 0 15px;
+  }
 
-.header-right {
-  display: flex;
-  gap: 25px;
-}
-
-.header-right a {
-  color: white;
-  line-height: 65px;
-  font-size: 14px;
-  transition: 0.3s;
-}
-
-.header-right a:hover {
-  opacity: 0.7;
-}
+  .header-right a {
+    float: none;
+    display: inline-block;      /* ← blockやめる */
+    line-height: normal;        /* ← 65pxやめる */
+    padding: 5px 10px;
+    font-size: 14px;
+    white-space: nowrap;        /* ← 文字折り返さない */
+  }
 
 }
