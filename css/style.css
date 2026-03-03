@@ -130,23 +130,37 @@ header {
   color: #bbb;
 }
 
+/* ===== スマホ用ヘッダー改善 ===== */
 @media screen and (max-width: 768px) {
 
-  .header-left,
-  .header-right {
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .header-left {
     float: none;
     text-align: center;
+    margin: 0;
+    font-size: 20px;
   }
 
   .header-right {
-    margin-right: 0;
+    float: none;
+    text-align: center;
+    margin: 10px 0 0 0;
   }
 
   .header-right a {
     float: none;
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px 12px;
     font-size: 14px;
+  }
+
+  /* bodyの余白も調整 */
+  body {
+    padding-top: 100px;
   }
 
 }
