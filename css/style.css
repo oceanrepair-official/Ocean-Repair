@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
-  padding-top: 65px;   /* ← 全ページ共通 */
+  padding-top: 65px;  /* ← これ超重要 */
 }
 
 a {
@@ -21,37 +21,41 @@ a {
 
 /* ===== header ===== */
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
   top: 0;
-  z-index: 1000;   /* ← 少し上げておくと安全 */
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .header-left {
-  float: left;
   color: white;
   font-size: 24px;
-  margin-top: 15px;
 }
 
 .header-right {
-  float: right;
-  margin-right: 25px;
+  display: flex;
+  gap: 20px;
 }
 
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px;
   color: white;
-  display: block;
-  float: left;
-  transition: 0.5s;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  transition: 0.3s;
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5px;
 }
 
 /* ===== 共通ボタン ===== */
