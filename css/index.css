@@ -4,13 +4,31 @@ main {
 }
 
 /* ===== ヒーロー ===== */
+/* ===== ヒーロー（背景画像版） ===== */
 .hero {
-  background: linear-gradient(135deg, #f5f7fa, #ffffff);
-  padding: 100px 20px;
+  position: relative;
+  padding: 140px 20px;
   text-align: center;
+  color: #fff;
+
+  background-image: url("png/23179908_m.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* 黒の半透明レイヤー */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* テキストを前面に */
 .hero-content {
+  position: relative;
+  z-index: 1;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -22,7 +40,7 @@ main {
 
 .hero p {
   font-size: 1.1rem;
-  color: #555;
+  color: #f0f0f0;
   margin-bottom: 40px;
 }
 
