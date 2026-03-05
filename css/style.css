@@ -63,7 +63,7 @@ header {
   padding: 0 20px;
 }
 
-/* ===== 共通ボタン ===== */
+
 .cta-button {
   display: inline-block;
   padding: 15px 40px;
@@ -129,7 +129,7 @@ header {
   text-decoration: underline;
 }
 
-/* 下部コピーライト */
+
 .footer-bottom {
   margin-top: 40px;
   border-top: 1px solid rgba(255,255,255,0.2);
@@ -139,7 +139,7 @@ header {
   color: #bbb;
 }
 
-/* ===== スマホ時ヘッダー高さ修正 ===== */
+
 @media screen and (max-width: 768px) {
 
 
@@ -152,7 +152,7 @@ header {
 
   .header-right {
     float: none;
-    display: flex;              /* ← 横並びにする */
+    display: flex;              
     justify-content: center;    /* ← 中央寄せ */
     flex-wrap: wrap;            /* ← 画面狭い時だけ改行 */
     gap: 15px;
@@ -161,11 +161,11 @@ header {
 
   .header-right a {
     float: none;
-    display: inline-block;      /* ← blockやめる */
-    line-height: normal;        /* ← 65pxやめる */
+    display: inline-block;      
+    line-height: normal;       
     padding: 5px 10px;
     font-size: 14px;
-    white-space: nowrap;        /* ← 文字折り返さない */
+    white-space: nowrap;       
   }
 
 }

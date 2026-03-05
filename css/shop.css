@@ -1,10 +1,10 @@
-/* ===== ショップページ ===== */
+
 
 .shop-page {
   padding-top: 100px;
 }
 
-/* ヒーロー */
+
 .shop-hero {
   text-align: center;
   padding: 70px 20px;
@@ -20,7 +20,7 @@
   color: #666;
 }
 
-/* セクション共通 */
+
 .shop-section {
   max-width: 900px;
   margin: 60px auto;
@@ -43,7 +43,7 @@
   line-height: 1.7;
 }
 
-/* 楽天ボタン */
+
 .shop-btn {
   display: inline-block;
   margin-top: 30px;
@@ -60,7 +60,7 @@
   opacity: 0.85;
 }
 
-/* サブボタン */
+
 .shop-sub-btn {
   display: inline-block;
   margin-top: 20px;
@@ -69,7 +69,7 @@
   text-decoration: underline;
 }
 
-/* リスト */
+
 .shop-list {
   list-style: none;
   padding: 0;
@@ -80,7 +80,7 @@
   font-size: 1rem;
 }
 
-/* SNS */
+
 .sns-links {
   display: flex;
   justify-content: center;
@@ -94,7 +94,7 @@
   font-weight: bold;
 }
 
-/* 注意事項 */
+
 .notice {
   font-size: 0.9rem;
   color: #777;

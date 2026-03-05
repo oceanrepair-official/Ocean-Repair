@@ -1,10 +1,8 @@
-/* ===== 会社概要ページ ===== */
-
 .company-page {
   padding-top: 100px;
 }
 
-/* ヒーロー */
+
 .company-hero {
   text-align: center;
   padding: 60px 20px;
@@ -20,7 +18,7 @@
   color: #555;
 }
 
-/* セクション共通 */
+
 .company-page section {
   max-width: 900px;
   margin: 60px auto;
@@ -34,14 +32,14 @@
   padding-left: 12px;
 }
 
-/* メッセージ */
+
 .company-message p {
   line-height: 1.8;
   margin-bottom: 15px;
   color: #444;
 }
 
-/* 会社情報テーブル */
+
 .company-info table {
   width: 100%;
   border-collapse: collapse;
@@ -60,13 +58,13 @@
   font-weight: bold;
 }
 
-/* お問い合わせ */
+
 .company-contact p {
   margin-bottom: 8px;
   color: #444;
 }
 
-/* 外部リンク */
+
 .company-links ul {
   list-style: none;
   padding: 0;
