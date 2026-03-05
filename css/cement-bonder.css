@@ -1,0 +1,60 @@
+/* 商品ページ全体 */
+.product-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+/* 商品メイン画像 */
+.product-main-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+/* 商品タイトル */
+.product-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* セクション */
+.product-section {
+  margin-bottom: 25px;
+}
+
+/* 見出し */
+.product-section h2 {
+  border-left: 5px solid #2c7be5;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* リスト */
+.product-section ul {
+  padding-left: 20px;
+}
+
+/* 画像ギャラリー */
+.product-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product-gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* 会社情報 */
+.company-info {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 40px;
+  font-size: 14px;
+}
