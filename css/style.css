@@ -140,52 +140,6 @@ header {
 }
 
 
-@media screen and (max-width: 768px) {
-
-
-
-  .header-left {
-    float: none;
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .header-right {
-    float: none;
-    display: flex;              
-    justify-content: center;    /* ← 中央寄せ */
-    flex-wrap: wrap;            /* ← 画面狭い時だけ改行 */
-    gap: 15px;
-    margin: 5px 0 15px;
-  }
-
-  .header-right a {
-    float: none;
-    display: inline-block;      
-    line-height: normal;       
-    padding: 5px 10px;
-    font-size: 14px;
-    white-space: nowrap;       
-  }
-
-}
-
-
-.hamburger{
-  display:none;
-  flex-direction:column;
-  cursor:pointer;
-  gap:5px;
-}
-
-.hamburger span{
-  width:25px;
-  height:3px;
-  background:white;
-  display:block;
-}
-
-
 
 @media screen and (max-width:768px){
 
