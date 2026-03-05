@@ -141,6 +141,21 @@ header {
 
 
 
+.hamburger{
+  display:none;
+  flex-direction:column;
+  cursor:pointer;
+  gap:5px;
+}
+
+.hamburger span{
+  width:25px;
+  height:3px;
+  background:white;
+  display:block;
+}
+
+
 @media screen and (max-width:768px){
 
   .hamburger{
