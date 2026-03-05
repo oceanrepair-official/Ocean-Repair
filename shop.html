@@ -13,13 +13,22 @@
 
 <header>
   <div class="header-inner">
+
     <div class="header-left">Ocean Repair</div>
-    <div class="header-right">
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="header-right" id="nav-menu">
       <a href="index.html">ホーム</a>
       <a href="products.html">商品紹介</a>
       <a href="shop.html">ショップ</a>
       <a href="company.html">会社概要</a>
     </div>
+
   </div>
 </header>
 
@@ -138,6 +147,15 @@
   </div>
 
 </footer>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("nav-menu");
+
+hamburger.addEventListener("click", function(){
+  navMenu.classList.toggle("active");
+});
+</script>
 
 </body>
 </html>
