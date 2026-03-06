@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
-  padding-top: 65px;  /* ← これ超重要 */
+  padding-top: 65px;  
 }
 
 a {
